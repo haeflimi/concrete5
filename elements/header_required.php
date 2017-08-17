@@ -109,7 +109,7 @@ if ($c !== null && !$c->isAdminArea() && $app->make('multilingual/detector')->is
                 $relatedPage = Page::getByID($relatedID);
                 if ($relatedPage && !$relatedPage->isError()) {
                     $url = $urlManager->resolve([$relatedPage]);
-                    $alternateHreflangTags[] = '<link rel="alternate" hreflang="'.str_replace('_', '-', $ms->getLocale()).'" href="'.$url.'" />';
+                    $alternateHreflangTags[] = '<link rel="alternate" hreflang="'.str_replace('_', '-', $ms->getLanguage()).'" href="'.$url.'" />';
                 }
             }
         }
