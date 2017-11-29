@@ -375,18 +375,25 @@ class Package extends Object
      */
     public static function getByHandle($pkgHandle)
     {
-        $db = Database::connection();
-        $row = $db->fetchAssoc("SELECT * FROM Packages WHERE pkgHandle = ?", array($pkgHandle));
-        if ($row) {
-            $pkg = static::getClass($row['pkgHandle']);
-            if ($pkg instanceof self) {
-                $pkg->setPropertiesFromArray($row);
-            }
+        $cache = Core::make('cache/request');
+        $item = $cache->getItem('package/' . $pkgHandle);
+        if ($item->isMiss()) {
+            $db = Database::connection();
+            $row = $db->fetchAssoc("SELECT * FROM Packages WHERE pkgHandle = ?", array($pkgHandle));
+            if ($row) {
+                $pkg = static::getClass($row['pkgHandle']);
+                if ($pkg instanceof self) {
+                    $pkg->setPropertiesFromArray($row);
+                }
 
-            return $pkg;
-        } else {
-            return null;
+                $item->set($pkg);
+                return $pkg;
+            } else {
+                return null;
+            }
         }
+
+        return $item->get();
     }
 
     /**
