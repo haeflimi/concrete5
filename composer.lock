@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "hash": "e508a091e9c62b66b8a4435c7b53cea5",
+    "content-hash": "a9dd4864a7b863e5cc6bc3f705f37e44",
     "packages": [
         {
             "name": "anahkiasen/html-object",
@@ -43,7 +43,7 @@
                 }
             ],
             "description": "A set of classes to create and manipulate HTML objects abstractions",
-            "time": "2015-03-04 17:12:08"
+            "time": "2015-03-04T17:12:08+00:00"
         },
         {
             "name": "concrete5/doctrine-xml",
@@ -84,7 +84,7 @@
                 "structure",
                 "xml"
             ],
-            "time": "2015-04-30 15:46:28"
+            "time": "2015-04-30T15:46:28+00:00"
         },
         {
             "name": "concrete5/flysystem",
@@ -157,7 +157,7 @@
             "support": {
                 "source": "https://github.com/concrete5/flysystem/tree/0.4.11"
             },
-            "time": "2014-10-28 00:48:02"
+            "time": "2014-10-28T00:48:02+00:00"
         },
         {
             "name": "dapphp/securimage",
@@ -199,7 +199,7 @@
                 "captcha",
                 "security"
             ],
-            "time": "2014-08-27 15:24:19"
+            "time": "2014-08-27T15:24:19+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -267,7 +267,7 @@
                 "docblock",
                 "parser"
             ],
-            "time": "2015-08-31 12:32:49"
+            "time": "2015-08-31T12:32:49+00:00"
         },
         {
             "name": "doctrine/cache",
@@ -337,7 +337,7 @@
                 "cache",
                 "caching"
             ],
-            "time": "2015-08-31 12:36:41"
+            "time": "2015-08-31T12:36:41+00:00"
         },
         {
             "name": "doctrine/collections",
@@ -403,7 +403,7 @@
                 "collections",
                 "iterator"
             ],
-            "time": "2015-04-14 22:21:58"
+            "time": "2015-04-14T22:21:58+00:00"
         },
         {
             "name": "doctrine/common",
@@ -476,7 +476,7 @@
                 "persistence",
                 "spl"
             ],
-            "time": "2015-08-31 13:00:22"
+            "time": "2015-08-31T13:00:22+00:00"
         },
         {
             "name": "doctrine/dbal",
@@ -547,7 +547,7 @@
                 "persistence",
                 "queryobject"
             ],
-            "time": "2015-01-12 21:52:47"
+            "time": "2015-01-12T21:52:47+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -614,7 +614,7 @@
                 "singularize",
                 "string"
             ],
-            "time": "2014-12-20 21:24:13"
+            "time": "2014-12-20T21:24:13+00:00"
         },
         {
             "name": "doctrine/lexer",
@@ -668,7 +668,7 @@
                 "lexer",
                 "parser"
             ],
-            "time": "2014-09-09 13:34:57"
+            "time": "2014-09-09T13:34:57+00:00"
         },
         {
             "name": "doctrine/migrations",
@@ -726,19 +726,19 @@
                 "database",
                 "migrations"
             ],
-            "time": "2015-03-22 13:09:02"
+            "time": "2015-03-22T13:09:02+00:00"
         },
         {
             "name": "doctrine/orm",
             "version": "v2.4.8",
             "source": {
                 "type": "git",
-                "url": "https://github.com/doctrine/doctrine2.git",
+                "url": "https://github.com/doctrine/orm.git",
                 "reference": "5aedac1e5c5caaeac14798822c70325dc242d467"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/5aedac1e5c5caaeac14798822c70325dc242d467",
+                "url": "https://api.github.com/repos/doctrine/orm/zipball/5aedac1e5c5caaeac14798822c70325dc242d467",
                 "reference": "5aedac1e5c5caaeac14798822c70325dc242d467",
                 "shasum": ""
             },
@@ -799,7 +799,7 @@
                 "database",
                 "orm"
             ],
-            "time": "2015-08-31 13:19:01"
+            "time": "2015-08-31T13:19:01+00:00"
         },
         {
             "name": "egulias/email-validator",
@@ -849,7 +849,7 @@
                 "validation",
                 "validator"
             ],
-            "time": "2014-11-02 23:13:57"
+            "time": "2014-11-02T23:13:57+00:00"
         },
         {
             "name": "filp/whoops",
@@ -907,7 +907,7 @@
                 "whoops",
                 "zf2"
             ],
-            "time": "2015-06-29 05:42:04"
+            "time": "2015-06-29T05:42:04+00:00"
         },
         {
             "name": "gettext/gettext",
@@ -965,7 +965,7 @@
                 "po",
                 "translation"
             ],
-            "time": "2016-02-19 15:18:12"
+            "time": "2016-02-19T15:18:12+00:00"
         },
         {
             "name": "gettext/languages",
@@ -1019,7 +1019,7 @@
                 "translations",
                 "unicode"
             ],
-            "time": "2015-03-27 11:32:41"
+            "time": "2015-03-27T11:32:41+00:00"
         },
         {
             "name": "hautelook/phpass",
@@ -1031,7 +1031,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hautelook/phpass/zipball/b013515950e2cf6535e027aeb831aae00e7f728f",
+                "url": "https://api.github.com/repos/hautelook/phpass/zipball/f0217d804225822f9bdb0d392839029b0fcb0914",
                 "reference": "f0217d804225822f9bdb0d392839029b0fcb0914",
                 "shasum": ""
             },
@@ -1063,7 +1063,7 @@
                 "password",
                 "security"
             ],
-            "time": "2015-05-12 10:04:16"
+            "time": "2015-05-12T10:04:16+00:00"
         },
         {
             "name": "htmlawed/htmlawed",
@@ -1109,7 +1109,7 @@
                 "strip",
                 "tags"
             ],
-            "time": "2015-07-02 17:03:33"
+            "time": "2015-07-02T17:03:33+00:00"
         },
         {
             "name": "illuminate/config",
@@ -1157,7 +1157,7 @@
                     "role": "Creator of Laravel"
                 }
             ],
-            "time": "2014-04-16 00:49:36"
+            "time": "2014-04-16T00:49:36+00:00"
         },
         {
             "name": "illuminate/container",
@@ -1203,7 +1203,7 @@
                     "role": "Creator of Laravel"
                 }
             ],
-            "time": "2014-05-22 21:07:57"
+            "time": "2014-05-22T21:07:57+00:00"
         },
         {
             "name": "illuminate/filesystem",
@@ -1251,7 +1251,7 @@
                     "role": "Creator of Laravel"
                 }
             ],
-            "time": "2014-03-22 20:12:48"
+            "time": "2014-03-22T20:12:48+00:00"
         },
         {
             "name": "illuminate/support",
@@ -1303,7 +1303,7 @@
                     "role": "Creator of Laravel"
                 }
             ],
-            "time": "2014-05-30 16:22:08"
+            "time": "2014-05-30T16:22:08+00:00"
         },
         {
             "name": "imagine/imagine",
@@ -1360,7 +1360,7 @@
                 "image manipulation",
                 "image processing"
             ],
-            "time": "2014-11-11 11:36:02"
+            "time": "2014-11-11T11:36:02+00:00"
         },
         {
             "name": "league/url",
@@ -1414,7 +1414,8 @@
                 "php",
                 "url"
             ],
-            "time": "2015-07-15 08:24:12"
+            "abandoned": "league/uri",
+            "time": "2015-07-15T08:24:12+00:00"
         },
         {
             "name": "lusitanian/oauth",
@@ -1476,7 +1477,7 @@
                 "oauth",
                 "security"
             ],
-            "time": "2014-09-05 15:19:58"
+            "time": "2014-09-05T15:19:58+00:00"
         },
         {
             "name": "michelf/php-markdown",
@@ -1527,7 +1528,7 @@
             "keywords": [
                 "markdown"
             ],
-            "time": "2014-05-05 02:43:50"
+            "time": "2014-05-05T02:43:50+00:00"
         },
         {
             "name": "mlocati/concrete5-translation-library",
@@ -1577,7 +1578,7 @@
                 "translate",
                 "translation"
             ],
-            "time": "2016-02-19 16:28:07"
+            "time": "2016-02-19T16:28:07+00:00"
         },
         {
             "name": "mobiledetect/mobiledetectlib",
@@ -1631,7 +1632,7 @@
                 "mobile detector",
                 "php mobile detect"
             ],
-            "time": "2015-08-31 13:30:54"
+            "time": "2015-08-31T13:30:54+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -1707,7 +1708,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2015-08-31 09:17:37"
+            "time": "2015-08-31T09:17:37+00:00"
         },
         {
             "name": "natxet/CssMin",
@@ -1719,7 +1720,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/natxet/CssMin/zipball/0b2170454eed9024c7e26b036fbccf2d7f6f2c53",
+                "url": "https://api.github.com/repos/natxet/CssMin/zipball/4026975145f645a77e087a26e7b0a1c9209b0191",
                 "reference": "4026975145f645a77e087a26e7b0a1c9209b0191",
                 "shasum": ""
             },
@@ -1754,20 +1755,20 @@
                 "css",
                 "minify"
             ],
-            "time": "2015-07-07 10:45:37"
+            "time": "2015-07-07T10:45:37+00:00"
         },
         {
             "name": "nesbot/carbon",
-            "version": "1.11.0",
+            "version": "1.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "2b60366be6dcb9f9cd3e244ab25eb98eaea99551"
+                "reference": "48cb9ae6d9436e156316a59d198cb1ca797f8cd8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/2b60366be6dcb9f9cd3e244ab25eb98eaea99551",
-                "reference": "2b60366be6dcb9f9cd3e244ab25eb98eaea99551",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/48cb9ae6d9436e156316a59d198cb1ca797f8cd8",
+                "reference": "48cb9ae6d9436e156316a59d198cb1ca797f8cd8",
                 "shasum": ""
             },
             "require": {
@@ -1794,13 +1795,13 @@
                 }
             ],
             "description": "A simple API extension for DateTime.",
-            "homepage": "https://github.com/briannesbitt/Carbon",
+            "homepage": "http://carbon.nesbot.com",
             "keywords": [
                 "date",
                 "datetime",
                 "time"
             ],
-            "time": "2014-08-26 03:18:44"
+            "time": "2015-03-03T03:24:43+00:00"
         },
         {
             "name": "oryzone/oauth-user-data",
@@ -1857,7 +1858,7 @@
                 "security",
                 "user"
             ],
-            "time": "2014-02-10 10:20:55"
+            "time": "2014-02-10T10:20:55+00:00"
         },
         {
             "name": "oyejorge/less.php",
@@ -1916,7 +1917,7 @@
                 "php",
                 "stylesheet"
             ],
-            "time": "2014-03-17 04:51:51"
+            "time": "2014-03-17T04:51:51+00:00"
         },
         {
             "name": "pagerfanta/pagerfanta",
@@ -1983,7 +1984,7 @@
                 "paginator",
                 "paging"
             ],
-            "time": "2014-06-02 09:21:14"
+            "time": "2014-06-02T09:21:14+00:00"
         },
         {
             "name": "patchwork/utf8",
@@ -1995,7 +1996,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tchwork/utf8/zipball/84da29ef77c422d83126534cb5bb03ba6e20f319",
+                "url": "https://api.github.com/repos/tchwork/utf8/zipball/38047e4a8f64e1974f46ae6bec56aaa0357bb98d",
                 "reference": "38047e4a8f64e1974f46ae6bec56aaa0357bb98d",
                 "shasum": ""
             },
@@ -2034,7 +2035,7 @@
                 "utf-8",
                 "utf8"
             ],
-            "time": "2015-06-29 07:22:00"
+            "time": "2015-06-29T07:22:00+00:00"
         },
         {
             "name": "primal/color",
@@ -2046,7 +2047,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PrimalPHP/Color/zipball/877e2f7bbf1d27214e8c71ca4b70fdbe19ce4552",
+                "url": "https://api.github.com/repos/PrimalPHP/Color/zipball/d95e2258deecb2ac27b78c3d8c776ac802d0ab68",
                 "reference": "d95e2258deecb2ac27b78c3d8c776ac802d0ab68",
                 "shasum": ""
             },
@@ -2080,7 +2081,7 @@
             "keywords": [
                 "color"
             ],
-            "time": "2014-10-21 15:41:25"
+            "time": "2014-10-21T15:41:25+00:00"
         },
         {
             "name": "psr/log",
@@ -2118,7 +2119,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2012-12-21 11:40:51"
+            "time": "2012-12-21T11:40:51+00:00"
         },
         {
             "name": "punic/punic",
@@ -2183,7 +2184,7 @@
                 "translations",
                 "unicode"
             ],
-            "time": "2015-06-16 13:04:27"
+            "time": "2015-06-16T13:04:27+00:00"
         },
         {
             "name": "sunra/php-simple-html-dom-parser",
@@ -2226,7 +2227,7 @@
                 "html",
                 "parser"
             ],
-            "time": "2013-05-04 14:32:03"
+            "time": "2013-05-04T14:32:03+00:00"
         },
         {
             "name": "symfony/class-loader",
@@ -2276,7 +2277,7 @@
             ],
             "description": "Symfony ClassLoader Component",
             "homepage": "http://symfony.com",
-            "time": "2015-01-05 08:51:41"
+            "time": "2015-01-05T08:51:41+00:00"
         },
         {
             "name": "symfony/console",
@@ -2333,7 +2334,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2015-07-28 15:18:12"
+            "time": "2015-07-28T15:18:12+00:00"
         },
         {
             "name": "symfony/debug",
@@ -2393,7 +2394,7 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2015-07-09 16:07:40"
+            "time": "2015-07-09T16:07:40+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -2450,7 +2451,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "http://symfony.com",
-            "time": "2015-01-29 18:20:43"
+            "time": "2015-01-29T18:20:43+00:00"
         },
         {
             "name": "symfony/finder",
@@ -2497,7 +2498,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "http://symfony.com",
-            "time": "2014-09-27 08:35:25"
+            "time": "2014-09-27T08:35:25+00:00"
         },
         {
             "name": "symfony/http-foundation",
@@ -2550,7 +2551,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "http://symfony.com",
-            "time": "2015-04-01 15:49:36"
+            "time": "2015-04-01T15:49:36+00:00"
         },
         {
             "name": "symfony/http-kernel",
@@ -2624,7 +2625,7 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "http://symfony.com",
-            "time": "2015-05-26 23:43:20"
+            "time": "2015-05-26T23:43:20+00:00"
         },
         {
             "name": "symfony/routing",
@@ -2692,7 +2693,7 @@
                 "uri",
                 "url"
             ],
-            "time": "2015-02-08 07:07:45"
+            "time": "2015-02-08T07:07:45+00:00"
         },
         {
             "name": "symfony/serializer",
@@ -2739,7 +2740,7 @@
             ],
             "description": "Symfony Serializer Component",
             "homepage": "http://symfony.com",
-            "time": "2015-02-01 09:36:16"
+            "time": "2015-02-01T09:36:16+00:00"
         },
         {
             "name": "tedivm/jshrink",
@@ -2785,7 +2786,7 @@
                 "javascript",
                 "minifier"
             ],
-            "time": "2015-07-04 07:35:09"
+            "time": "2015-07-04T07:35:09+00:00"
         },
         {
             "name": "tedivm/stash",
@@ -2839,7 +2840,7 @@
                 "redis",
                 "sessions"
             ],
-            "time": "2014-05-31 15:54:45"
+            "time": "2014-05-31T15:54:45+00:00"
         },
         {
             "name": "true/punycode",
@@ -2885,7 +2886,7 @@
                 "idna",
                 "punycode"
             ],
-            "time": "2015-09-01 14:53:31"
+            "time": "2015-09-01T14:53:31+00:00"
         },
         {
             "name": "voku/urlify",
@@ -2935,7 +2936,7 @@
                 "url",
                 "urlify"
             ],
-            "time": "2013-10-16 18:23:13"
+            "time": "2013-10-16T18:23:13+00:00"
         },
         {
             "name": "zendframework/zend-cache",
@@ -2997,7 +2998,7 @@
                 "cache",
                 "zf2"
             ],
-            "time": "2014-03-05 17:29:35"
+            "time": "2014-03-05T17:29:35+00:00"
         },
         {
             "name": "zendframework/zend-crypt",
@@ -3048,7 +3049,7 @@
                 "crypt",
                 "zf2"
             ],
-            "time": "2014-03-05 17:29:35"
+            "time": "2014-03-05T17:29:35+00:00"
         },
         {
             "name": "zendframework/zend-escaper",
@@ -3093,7 +3094,7 @@
                 "escaper",
                 "zf2"
             ],
-            "time": "2014-03-05 17:29:35"
+            "time": "2014-03-05T17:29:35+00:00"
         },
         {
             "name": "zendframework/zend-eventmanager",
@@ -3139,7 +3140,7 @@
                 "eventmanager",
                 "zf2"
             ],
-            "time": "2014-03-05 17:29:35"
+            "time": "2014-03-05T17:29:35+00:00"
         },
         {
             "name": "zendframework/zend-feed",
@@ -3199,7 +3200,7 @@
                 "feed",
                 "zf2"
             ],
-            "time": "2014-03-05 17:29:35"
+            "time": "2014-03-05T17:29:35+00:00"
         },
         {
             "name": "zendframework/zend-http",
@@ -3249,7 +3250,7 @@
                 "http",
                 "zf2"
             ],
-            "time": "2014-03-05 18:47:14"
+            "time": "2014-03-05T18:47:14+00:00"
         },
         {
             "name": "zendframework/zend-i18n",
@@ -3322,7 +3323,7 @@
                 "source": "https://github.com/mlocati/zendframework2-i18n-v3/tree/release-2.2.10",
                 "issues": "https://github.com/mlocati/zendframework2-i18n-v3/issues"
             },
-            "time": "2015-05-19 13:20:16"
+            "time": "2015-05-19T13:20:16+00:00"
         },
         {
             "name": "zendframework/zend-json",
@@ -3376,7 +3377,7 @@
                 "json",
                 "zf2"
             ],
-            "time": "2014-03-06 17:27:03"
+            "time": "2014-03-06T17:27:03+00:00"
         },
         {
             "name": "zendframework/zend-loader",
@@ -3421,7 +3422,7 @@
                 "loader",
                 "zf2"
             ],
-            "time": "2014-03-06 17:27:03"
+            "time": "2014-03-06T17:27:03+00:00"
         },
         {
             "name": "zendframework/zend-mail",
@@ -3477,7 +3478,7 @@
                 "mail",
                 "zf2"
             ],
-            "time": "2014-03-06 17:27:03"
+            "time": "2014-03-06T17:27:03+00:00"
         },
         {
             "name": "zendframework/zend-math",
@@ -3528,7 +3529,7 @@
                 "math",
                 "zf2"
             ],
-            "time": "2014-03-05 17:29:35"
+            "time": "2014-03-05T17:29:35+00:00"
         },
         {
             "name": "zendframework/zend-mime",
@@ -3578,19 +3579,19 @@
                 "mime",
                 "zf2"
             ],
-            "time": "2014-03-05 17:29:35"
+            "time": "2014-03-05T17:29:35+00:00"
         },
         {
             "name": "zendframework/zend-queue",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/concrete5/ZendQueue.git",
+                "url": "https://github.com/zendframework/ZendQueue.git",
                 "reference": "15f30c0d8061c6dc8c23b6163b32b049827556a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/concrete5/ZendQueue/zipball/15f30c0d8061c6dc8c23b6163b32b049827556a0",
+                "url": "https://api.github.com/repos/zendframework/ZendQueue/zipball/15f30c0d8061c6dc8c23b6163b32b049827556a0",
                 "reference": "15f30c0d8061c6dc8c23b6163b32b049827556a0",
                 "shasum": ""
             },
@@ -3624,7 +3625,7 @@
             "support": {
                 "source": "https://github.com/concrete5/ZendQueue/tree/master"
             },
-            "time": "2016-04-06 13:44:13"
+            "time": "2016-04-06T13:44:13+00:00"
         },
         {
             "name": "zendframework/zend-serializer",
@@ -3677,7 +3678,7 @@
                 "serializer",
                 "zf2"
             ],
-            "time": "2014-03-05 17:29:35"
+            "time": "2014-03-05T17:29:35+00:00"
         },
         {
             "name": "zendframework/zend-servicemanager",
@@ -3725,7 +3726,7 @@
                 "servicemanager",
                 "zf2"
             ],
-            "time": "2014-03-05 17:29:35"
+            "time": "2014-03-05T17:29:35+00:00"
         },
         {
             "name": "zendframework/zend-stdlib",
@@ -3780,7 +3781,7 @@
                 "stdlib",
                 "zf2"
             ],
-            "time": "2014-03-05 17:29:35"
+            "time": "2014-03-05T17:29:35+00:00"
         },
         {
             "name": "zendframework/zend-uri",
@@ -3828,7 +3829,7 @@
                 "uri",
                 "zf2"
             ],
-            "time": "2014-03-05 17:29:35"
+            "time": "2014-03-05T17:29:35+00:00"
         },
         {
             "name": "zendframework/zend-validator",
@@ -3892,7 +3893,7 @@
                 "validator",
                 "zf2"
             ],
-            "time": "2014-03-05 17:29:35"
+            "time": "2014-03-05T17:29:35+00:00"
         }
     ],
     "packages-dev": [
@@ -3934,7 +3935,7 @@
                 }
             ],
             "description": "concrete5 composer package for adding commands that generate documentation.",
-            "time": "2015-08-26 20:30:43"
+            "time": "2015-08-26T20:30:43+00:00"
         },
         {
             "name": "phpdocumentor/reflection-docblock",
@@ -3983,7 +3984,7 @@
                     "email": "mike.vanriel@naenius.com"
                 }
             ],
-            "time": "2015-02-03 12:10:50"
+            "time": "2015-02-03T12:10:50+00:00"
         }
     ],
     "aliases": [],

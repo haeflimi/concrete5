@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'phpDocumentor' => array($vendorDir . '/phpdocumentor/reflection-docblock/src'),
     'ZendQueue' => array($vendorDir . '/zendframework/zend-queue/library'),
     'Whoops' => array($vendorDir . '/filp/whoops/src'),
     'URLify' => array($vendorDir . '/voku/urlify'),

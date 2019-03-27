@@ -37,5 +37,6 @@ return array(
     'Gettext\\' => array($vendorDir . '/gettext/gettext/src'),
     'DoctrineXml\\' => array($vendorDir . '/concrete5/doctrine-xml/src'),
     'Concrete\\Flysystem\\' => array($vendorDir . '/concrete5/flysystem/src'),
+    'Concrete\\DocumentationGenerator\\' => array($vendorDir . '/concrete5/documentation_generator/src'),
     'C5TL\\' => array($vendorDir . '/mlocati/concrete5-translation-library/src'),
 );
