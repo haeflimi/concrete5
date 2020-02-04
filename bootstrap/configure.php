@@ -28,7 +28,8 @@ defined('DISPATCHER_FILENAME_CORE') or define('DISPATCHER_FILENAME_CORE', 'dispa
 defined('DIRNAME_APPLICATION') or define('DIRNAME_APPLICATION', 'application');
 defined('DIRNAME_UPDATES') or define('DIRNAME_UPDATES', 'updates');
 defined('DIRNAME_CORE') or define('DIRNAME_CORE', 'concrete');
-defined('DIR_BASE') or define('DIR_BASE', dirname($_SERVER['SCRIPT_FILENAME']));
+// prevent DIR_BASE to be defined with double slashes as this is causing problems when loading theme files on webservers that use double slashes for the root
+defined('DIR_BASE') or define('DIR_BASE', preg_replace('#/+#','/',dirname($_SERVER['SCRIPT_FILENAME'])));
 defined('DIR_APPLICATION') or define('DIR_APPLICATION', DIR_BASE . '/' . DIRNAME_APPLICATION);
 defined('DIR_CONFIG_SITE') or define('DIR_CONFIG_SITE', DIR_APPLICATION . '/config');
 
@@ -63,7 +64,7 @@ if (!defined('APP_UPDATED_PASSTHRU') && isset($updates['core'])) {
 /**
  * ----------------------------------------------------------------------------
  * ## If we're still here, we're proceeding through this concrete directory,
- * and it's time to load the rest of our hard-coded configuration optionsÂ â€“
+ * and it's time to load the rest of our hard-coded configuration options –
  * the one we don't need a database to tell us about.
  *
  * Namespacing and Autoloading
