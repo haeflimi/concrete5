@@ -1,0 +1,5 @@
+{
+  "type": "concrete5-core",
+  "name": "mesch/concrete5-core-mesch-patched",
+  "description": "Patched Version of the Concrete5 Core. Modifications by Mesch"
+}
