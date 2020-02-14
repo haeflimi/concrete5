@@ -1,0 +1,13 @@
+{
+  "type": "concrete5-core",
+  "name": "mesch/concrete5-core-mesch-patched",
+  "description": "Patched Version of the Concrete5 Core. Modifications by Mesch",
+  "prefer-stable": true,
+  "config": {
+    "optimize-autoloader": true
+  },
+  "require": {
+    "php": ">=5.3.3",
+    "composer/installers": "^1.0"
+  }
+}
