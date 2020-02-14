@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="27eb4dbf-8736-4846-9f0e-da6fe393eaf9" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="1PgTDYEBWC3eSjSCvWxWY3M5ROx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="AttributeValueList&#9;null&#9;null&#10;getAttributes&#9;null&#9;null&#10;ADODB_Active_Record&#9;null&#9;null&#10;AttributeKey&#9;null&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\michael.haefliger\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="27eb4dbf-8736-4846-9f0e-da6fe393eaf9" name="Default" comment="" />
+      <created>1536141708211</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536141708211</updated>
+      <workItem from="1536141709505" duration="7132000" />
+      <workItem from="1536157040301" duration="32000" />
+      <workItem from="1536225684674" duration="691000" />
+      <workItem from="1536232525142" duration="75000" />
+      <workItem from="1536655456719" duration="938000" />
+      <workItem from="1554214011758" duration="1338000" />
+      <workItem from="1556787179763" duration="610000" />
+      <workItem from="1566294622418" duration="1649000" />
+      <workItem from="1571389343334" duration="912000" />
+      <workItem from="1572947185057" duration="3637000" />
+      <workItem from="1572957947203" duration="4000" />
+      <workItem from="1578412166309" duration="632000" />
+      <workItem from="1579631211473" duration="33000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="806" y="510" width="607" height="526" key="find.popup" timestamp="1579631225873">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="806" y="510" width="607" height="526" key="find.popup/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1579631225873" />
+  </component>
+</project>
