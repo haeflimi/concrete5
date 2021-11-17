@@ -20,8 +20,11 @@ class Clearcache extends DashboardPageController
             if ($this->isPost()) {
                 $thumbnails = $this->request('thumbnails') === '1';
                 $config = $this->app->make(Repository::class);
+                $timeStamp = time();
                 $config->set('concrete.cache.clear.thumbnails', $thumbnails);
                 $config->save('concrete.cache.clear.thumbnails', $thumbnails);
+                $config->set('concrete.cache.clear.last_cleared', $timeStamp);
+                $config->save('concrete.cache.clear.last_cleared', $timeStamp);
                 $this->app->clearCaches();
                 $this->redirect('/dashboard/system/optimization/clearcache', 'cache_cleared');
             }

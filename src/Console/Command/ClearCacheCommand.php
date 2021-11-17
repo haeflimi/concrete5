@@ -37,6 +37,7 @@ EOT
     {
         $cms = Core::make('app');
         $thumbnails = $input->getOption('thumbnails');
+        $timeStamp = time();
         if ($thumbnails !== null) {
             switch (strtolower($thumbnails[0])) {
                 case 'n':
@@ -52,6 +53,8 @@ EOT
             $config->set('concrete.cache.clear.thumbnails', $clearThumbnails);
         }
         $output->write('Clearing the concrete5 cache... ');
+        $config->set('concrete.cache.clear.last_cleared', $timeStamp);
+        $config->save('concrete.cache.clear.last_cleared', $timeStamp);
         $cms->clearCaches();
         $output->writeln('<info>done.</info>');
     }
