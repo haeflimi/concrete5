@@ -37,6 +37,7 @@ EOT
     {
         $cms = Core::make('app');
         $thumbnails = $input->getOption('thumbnails');
+        $config = $cms->app->make(Repository::class);
         $timeStamp = time();
         if ($thumbnails !== null) {
             switch (strtolower($thumbnails[0])) {
@@ -49,7 +50,6 @@ EOT
                 default:
                     throw new Exception('Invalid value for the --thumbnails option: please specify Y[es] or N[o]');
             }
-            $config = $cms->app->make(Repository::class);
             $config->set('concrete.cache.clear.thumbnails', $clearThumbnails);
         }
         $output->write('Clearing the concrete5 cache... ');
