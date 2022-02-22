@@ -22,6 +22,7 @@ use Concrete\Core\User\UserInfo;
 use Punic\Misc as PunicMisc;
 use ZendQueue\Message as ZendQueueMessage;
 use ZendQueue\Queue as ZendQueue;
+use Doctrine\ORM\EntityManager;
 
 class IndexSearchAll extends QueueableJob
 {
@@ -52,7 +53,7 @@ class IndexSearchAll extends QueueableJob
      * @var ObjectManager
      */
     protected $objectManager;
-
+protected $batched = 0;
     public function getJobName()
     {
         return t('Index Search Engine - All');
@@ -126,7 +127,8 @@ class IndexSearchAll extends QueueableJob
     public function processQueueItem(ZendQueueMessage $msg)
     {
         $index = $this->indexManager;
-
+app(EntityManager::class)->clear();
+$batched = 0;
         // Handle a "clear" message
         if (substr($msg->body, 0, 2) === '-2') {
             $this->clearExpressEntityIndex(substr($msg->body, 2));
@@ -174,12 +176,17 @@ class IndexSearchAll extends QueueableJob
                     foreach ($values as $value) {
                         $indexer->indexEntry($categoryToIndex, $value, $subject);
                     }
+$batched++;
                 }
             } elseif ($type === 'R') {
                 // Store this result, this is likely the last item.
                 $this->result = json_decode($message);
             }
         }
+if ($batched > 200) {
+app(EntityManager::class)->clear();
+$batched = 0;
+}
     }
 
     public function finish(ZendQueue $q)
